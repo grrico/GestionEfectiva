@@ -1,17 +1,15 @@
 
+//  angular module
+
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
+//  pipes
 import { TruncatePipe } from './pipes/truncate.pipe'
 
+//  material
 import { MaterialModule } from './material'
-
-//import { BrowserModule } from '@angular/platform-browser';
-// import { MatToolbarModule } from '@angular/material/toolbar';
-// import { MatCardModule } from '@angular/material/card';
-// import { MatListModule } from '@angular/material/list';
-
 
 @NgModule({
 declarations: [
